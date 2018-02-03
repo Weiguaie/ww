@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.lui-person-wrap{background:#ECF0F5;}
+
+/*lui-person-box start*/
+.lui-person-box{clear:both;display:block;width:100%;height:400px;padding:0;background:url(../images/banner-Personal.png) no-repeat top center #fff;text-align:center;}
+.lui-person-top{display:block;min-width:500px;margin:0 auto;;}
+.lui-person-h-left{height:50px;line-height:50px;padding:0 20px;color:#fff;font-size:12px;text-align:left;}
+.lui-person-h-left span{padding:0 20px 0 0;font-weight:bold;font-size:16px;}
+
+.lui-person-h-center{display:inline-block;*display:inline;width:90px;height:90px;margin:0 50px;padding:0;border:3px solid #FFF;border-radius:50%;background:#fff;box-shadow: 0 0 6px 0 rgba(0,0,0,0.32);overflow:hidden;}
+
+.lui-person-h-left{text-align:left;}
+.lui-person-h-left h3,.lui-person-h-left h4,.lui-person-h-right h3,.lui-person-h-right h4{margin:0;padding:0;font-weight:normal;color:#4A4A4A;font-size:12px;}
+.lui-person-h-left h3{width:80px;font-size:18px;letter-spacing: -0.5px;}
+.lui-person-h-left h4{width:80px;margin-top:-4px;}
+.lui-person-h-left h4 span{padding:0 0  0 6px;}
+.lui-person-h-right h3{padding:2px 0 0;}
+
+/*************lui-person-info start*************/
+.lui-person-info{clear:both;width:500px;margin:0 auto;text-align:center;}
+.lui-person-info h2,.lui-person-info h3{height:auto;margin:0;padding:0;font-size:24px;color: #FFF;text-shadow: 0 2px 10px rgba(0,0,0,0.50);font-weight:bold;}
+.lui-person-info h3{font-weight:normal;}
+.lui-person-info h3 label,.lui-person-info em,.lui-person-info span{display:inline-block;font-size:14px;color: #FFF;letter-spacing:-0.58px;font-weight:normal;}
+/*************lui-person-info end*************/
+
+/*************lui-person-iconbox start*************/
+.lui-person-iconbox{clear:both;width:70%;min-width:500px;margin:0 auto;padding:30px 0 0;}
+.lui-person-icon{display:inline-block;*display:inline;width:15%;margin:0 5% 0 0;text-align:center;}
+.lui-person-icon:last-child{margin:0;}
+.lui-i-last{margin:0;}
+.lui-person-img {display:inline-block;width:60px;height:60px;background:#FFF;border:2px solid #4285F4;box-shadow: 0 4px 11px 0 rgba(66,133,244,0.60);border-radius:100px;}
+.lui-person-icon a{display:inline-block;width:120px;cursor:ponter;}
+.lui-person-icon span{display:block;height:60px;text-align:center;overflow:hidden;text-overflow: hidden;white-space:nowrap;}
+
+
+.lui-p-icon02,.lui-p-icon04{position:relative;top:15px;}
+.lui-p-icon03{position:relative;top:25px;}
+.lui-p-icon01 span{background:url(../images/icon-m/icon-m-01.png) no-repeat center;}
+.lui-p-icon02 span{background:url(../images/icon-m/icon-m-02.png) no-repeat center;}
+.lui-p-icon03 span{background:url(../images/icon-m/icon-m-03.png) no-repeat center;}
+.lui-p-icon04 span{background:url(../images/icon-m/icon-m-04.png) no-repeat center;}
+.lui-p-icon05 span{background:url(../images/icon-m/icon-m-05.png) no-repeat center;}
+
+.lui-person-icon a h3,.lui-person-icon a:hover h3{margin:0;padding:4px 0 0;font-weight:normal;color:#333;font-size:16px;}
+.lui-person-icon a:hover .lui-person-img{background:#4285F4;}
+.lui-p-icon01 a:hover span{background:url(../images/icon-m-on/icon-m-01.png) no-repeat center;}
+.lui-p-icon02 a:hover span{background:url(../images/icon-m-on/icon-m-02.png) no-repeat center;}
+.lui-p-icon03 a:hover span{background:url(../images/icon-m-on/icon-m-03.png) no-repeat center;}
+.lui-p-icon04 a:hover span{background:url(../images/icon-m-on/icon-m-04.png) no-repeat center;}
+.lui-p-icon05 a:hover span{background:url(../images/icon-m-on/icon-m-05.png) no-repeat center;}
+/*************lui-person-iconbox end*************/
+
+/*lui-person-box end*/
+
+/*lui-icon-viewbox start*/
+.lui-person-icon-viewbox{clear:both;padding:40px 0 10px;overflow:hidden;} 
+.lui-person-icon-viewbox ul{clear:both;display:inline-block;width:100%;height:120px;margin:0 0 10px;padding:15px 0 0 1%;vertical-align:top;}
+.lui-person-icon-viewbox ul li{float:left;display:inline-block;*display:inline;width:25%;height:95px;margin:0 0 28px;padding:0;text-align:center;list-style:none;position:relative;}
+.lui-person-icon-viewbox ul li a{display:inline-block;float:left;width:96%;height:95px;margin:0 4% 0 0;padding:0;background: #FFF;border: 1px solid #E6EAEF;box-shadow: 0 1px 1px 0 #DADEE2;border-radius:6px;cursor:pointer;}
+.lui-person-icon-viewbox ul li a span{display:block;width:72px;height:72px;}
+.lui-index-icon ul li:last-child a{width:96%;margin:0;}
+.lui-index-icon ul li.lui-iconview-last a{width:96%;margin:0;}
+.lui-person-icon-viewbox UL LI.lui-iconview-last{margin:0;}
+.lui-person-icon-viewbox ul li.lui-iconview-last a{margin:0;}
+.lui-person-icon-viewbox ul li a:hover{opacity:0.8;filter:alpha(opacity:80);}
+
+.lui-person-icon-viewbox ul li h2,.lui-person-icon-viewbox ul li h3{height:auto;margin:0;padding:12px 20px 0 0;font-size:12px;color:#9B9B9B;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.lui-person-icon-viewbox ul li h2{padding:0 20px 0 0;font-family:PingFangSC-Regular;font-size: 28px;color: #4A4A4A;}
+
+.lui-icon-img{position:absolute;left:20px;top:-17px;width:72px;height:72px;background:#7EAEFF;box-shadow: 0 4px 13px 0 rgba(251,188,5,0.50);border-radius: 5.4px;text-align:right;}
+.lui-person-bg01 .lui-icon-img{background:#FFCE3E;box-shadow: 0 4px 13px 0 rgba(251,188,5,0.50);}
+.lui-person-bg02 .lui-icon-img{background:#FF5652;box-shadow: 0 5px 13px 0 rgba(234,67,53,0.50);}
+.lui-person-bg03 .lui-icon-img{background:#4FDD75;box-shadow: 0 5px 13px 0 rgba(52,168,83,0.50);}
+.lui-person-bg04 .lui-icon-img{background:#7EAEFF;box-shadow: 0 5px 13px 0 rgba(66,133,244,0.50);}
+.lui-person-bg05 .lui-icon-img{background:#75D9FE;box-shadow: 0 5px 14px 0 rgba(0,222,255,0.50);}
+.lui-person-bg06 .lui-icon-img{background:#FF57C3;box-shadow: 0 5px 14px 0 rgba(255,0,172,0.50);}
+.lui-person-bg07 .lui-icon-img{background:#F900FF;box-shadow: 0 5px 14px 0 rgba(255,0,172,0.50);}
+.lui-person-bg08 .lui-icon-img{background:#49FDCB;box-shadow: 0 5px 14px 0 rgba(0,255,231,0.50);}
+
+.lui-person-bg01 .lui-icon-img span{background:url(../images/lui-view-icon01.png) no-repeat center;}
+.lui-person-bg02 .lui-icon-img span{background:url(../images/lui-view-icon02.png) no-repeat center;}
+.lui-person-bg03 .lui-icon-img span{background:url(../images/lui-view-icon03.png) no-repeat center;}
+.lui-person-bg04 .lui-icon-img span{background:url(../images/lui-view-icon04.png) no-repeat center;}
+.lui-person-bg05 .lui-icon-img span{background:url(../images/lui-view-icon05.png) no-repeat center;}
+.lui-person-bg06 .lui-icon-img span{background:url(../images/lui-view-icon06.png) no-repeat center;}
+.lui-person-bg07 .lui-icon-img span{background:url(../images/lui-view-icon07.png) no-repeat center;}
+.lui-person-bg08 .lui-icon-img span{background:url(../images/lui-view-icon08.png) no-repeat center;}
+/*lui-icon-viewbox end*/
+
+/*lui-person-center-footer start*/
+.lui-person-center-footer{clear:both;height:60px;background:#4285F4;}
+/*lui-person-center-footer end*/
